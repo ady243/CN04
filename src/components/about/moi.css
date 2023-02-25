@@ -1,0 +1,36 @@
+.moi {
+  border: solid 3px hwb(213 0% 72%) (240, 91%, 8%);
+  border-radius: 10px;
+  box-shadow: 10px 10px hsl(196, 94%, 6%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 2em;
+  margin-left: 85px;
+  cursor: pointer;
+}
+.moi:hover {
+  border: 3px solid #022249;
+}
+
+img {
+  width: 320px;
+}
+
+@media (max-width: 600px) {
+  .moi {
+    display: table-row;
+    margin-right: 100px;
+  }
+  .moi:hover {
+    width: 100px;
+    height: 40%;
+    border: 3px solid #022249;
+    cursor: pointer;
+  }
+  img {
+    width: 100%;
+  }
+  .social {
+    margin-right: 20%;
+  }
+}
