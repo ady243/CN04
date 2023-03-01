@@ -35,6 +35,7 @@ button {
   @include shadow;
   height: 105vh;
 }
+
 main {
   width: $w-2xl;
 }
@@ -93,6 +94,7 @@ $backgrouds: (
   padding: 30px;
   background: $black;
   margin-top: 30px;
+  width: 100%;
 }
 
 .heading {
@@ -122,14 +124,22 @@ $backgrouds: (
 
 .pages {
   @extend .container;
-  height: 90vh;
+  // height: 90vh;
   font-size: 50px;
   color: $primary;
 }
 
-@media (min-widht: 500px) {
+@media (max-width: 600px) {
   .container {
-    width: 100px;
-    position: absolute;
+    margin-top: 20%;
+    width: 420px;
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+  .side {
+    width: 155%;
+    display: block;
+    justify-content: center;
   }
 }

@@ -8,7 +8,7 @@ import { Services } from "./Services";
 export const About = () => {
   return (
     <>
-      <section className="about">
+      <section className="">
         <div className="container">
           {about.map((items) => {
             return (

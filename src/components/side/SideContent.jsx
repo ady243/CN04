@@ -74,14 +74,6 @@ export const SideContent = () => {
           </div>
         </div>
         <div className="sideContent_bottom">
-          <div className="sideContent_bottom_skill">
-            {side.map((item) => (
-              <div className="sideContent_skill_box">
-                <Progress title={item.text} done={item.num} back={item.class} />
-              </div>
-            ))}
-          </div>
-
           <div className="sideContent_bottom_buttonGroup"></div>
           {about.map((items) => {
             return (

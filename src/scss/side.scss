@@ -64,7 +64,14 @@
     width: 0;
     opacity: 0;
     transition: 1s ease 0.3s;
-    background: linear-gradient(to right, #806dfa, #009eff, #00c1ff, #00dcf8, #6ef2e1);
+    background: linear-gradient(
+      to right,
+      #806dfa,
+      #009eff,
+      #00c1ff,
+      #00dcf8,
+      #6ef2e1
+    );
   }
   &_num {
     h4 {

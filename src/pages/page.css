@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+  .main-div {
+    flex-direction: column;
+
+    /* main {
+      width: 100%;
+    } */
+  }
+  .side {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
