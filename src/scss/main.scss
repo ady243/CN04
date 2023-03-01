@@ -131,15 +131,16 @@ $backgrouds: (
 
 @media (max-width: 600px) {
   .container {
-    margin-top: 20%;
+    margin-top: 40%;
     width: 420px;
     display: block;
     background-color: transparent;
     border: none;
   }
   .side {
-    width: 155%;
+    width: 150%;
     display: block;
     justify-content: center;
+    margin-right: 40%;
   }
 }
