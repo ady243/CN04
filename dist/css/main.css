@@ -271,12 +271,12 @@ button {
   padding: 40px;
 } */
 
-/* .side {
+.side {
   width: 25%;
   background-color: #292633;
   box-shadow: -3px 2px 21px 4px rgb(32, 30, 41);
   height: 105vh;
-} */
+}
 
 main {
   width: 72%;
@@ -543,7 +543,7 @@ main {
 @media (max-width: 600px) {
   .container {
     width: 100px;
-    background-color: #292633;
+    background-color: #000000;
     border: none;
   }
   .about_details_bio {
