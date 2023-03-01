@@ -544,8 +544,9 @@ main {
   .container {
     width: 100px;
     background-color: #292633;
+    border: none;
   }
   .about_details_bio {
-    width: 600px;
+    width: 700px;
   }
 }

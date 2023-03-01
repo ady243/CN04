@@ -132,13 +132,14 @@ $backgrouds: (
 @media (max-width: 600px) {
   .container {
     margin-top: 100%;
-    width: 420px;
+    width: 350px;
     display: block;
     background-color: transparent;
     border: none;
   }
   .side {
     width: 100%;
+
     display: block;
     justify-content: center;
     margin-right: 40%;

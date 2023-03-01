@@ -24,7 +24,7 @@ img {
   .moi:hover {
     width: 100px;
     height: 40%;
-    border: 3px solid #022249;
+    /* border: 3px solid #022249; */
     cursor: pointer;
   }
   img {
