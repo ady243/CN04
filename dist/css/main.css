@@ -543,7 +543,7 @@ main {
 @media (max-width: 600px) {
   .container {
     width: 100px;
-    background-color: #000000;
+    background-color: hsl(0, 5%, 24%);
     border: none;
   }
   .about_details_bio {
